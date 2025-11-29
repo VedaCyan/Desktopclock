@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="#FF222222"
+     android:gravity="center"
+     android:padding="16dp"
+     android:orientation="vertical">
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_marginBottom="20dp"
+         android:gravity="center"
+         android:textSize="18sp"
+         android:textColor="#FFFFFFFF"
+         android:id="@+id/titleText"
+         android:text="操作说明"
+         android:textStyle="bold" />
+
+    <LinearLayout
+         android:layout_height="0dp"
+         android:layout_width="match_parent"
+         android:weightSum="3"
+         android:gravity="center"
+         android:orientation="horizontal"
+         android:layout_weight="1">
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="0dp"
+             android:gravity="center"
+             android:padding="8dp"
+             android:orientation="vertical"
+             android:layout_weight="1">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:textSize="14sp"
+                 android:paddingBottom="8dp"
+                 android:textColor="#FFFFFFFF"
+                 android:textStyle="bold"
+                 android:text="触屏设备" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:textSize="12sp"
+                 android:textColor="#FFFFFFFF"
+                 android:lineSpacingMultiplier="1.2"
+                 android:text="单击时钟：切换文字颜色\n\n单击背景：更换壁纸\n\n双击时钟：切换字体样式\n\n左滑屏幕：打开位置设置" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="0dp"
+             android:gravity="center"
+             android:padding="8dp"
+             android:orientation="vertical"
+             android:layout_weight="1">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:textSize="14sp"
+                 android:paddingBottom="8dp"
+                 android:textColor="#FFFFFFFF"
+                 android:textStyle="bold"
+                 android:text="位置设置页面（TV端）" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:textSize="12sp"
+                 android:textColor="#FFFFFFFF"
+                 android:lineSpacingMultiplier="1.2"
+                 android:text="方向键上下：切换位置\n\n方向键左右：切换省份/城市/县区\n\nOK键：保存位置设置" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="0dp"
+             android:gravity="center"
+             android:padding="8dp"
+             android:orientation="vertical"
+             android:layout_weight="1">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:textSize="14sp"
+                 android:paddingBottom="8dp"
+                 android:textColor="#FFFFFFFF"
+                 android:textStyle="bold"
+                 android:text="TV端（遥控器）" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:gravity="center"
+                 android:textSize="12sp"
+                 android:textColor="#FFFFFFFF"
+                 android:lineSpacingMultiplier="1.2"
+                 android:text="↑↓方向键：切换文字颜色\n\n←→方向键：切换字体样式\n\nOK键单击：更换背景壁纸\n\nOK键双击：打开位置设置\n\n返回键双击：退出应用" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:orientation="horizontal"
+         android:layout_marginTop="10dp">
+
+        <Button
+             android:layout_height="36dp"
+             android:layout_width="140dp"
+             android:background="@color/light_gray"
+             android:focusableInTouchMode="true"
+             android:textSize="13sp"
+             android:textColor="#FF000000"
+             android:focusable="true"
+             android:id="@+id/startButton"
+             android:text="开始使用" />
+
+    </LinearLayout>
+
+</LinearLayout>
