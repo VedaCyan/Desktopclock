@@ -117,3 +117,123 @@
 ---
 
 让时间显示变得更加美好！
+
+Horizontal Clock
+
+A feature-rich Android desktop clock application that perfectly supports all versions from Android 4.1 to Android 16, while being compatible with both TV and touchscreen devices.
+
+📱 Project Features
+
+🌟 Core Features
+
+· Beautiful Time Display - Large font time, date, lunar calendar, and festival information
+· Real-time Weather - Automatically fetches current location weather information
+· Smart Wallpaper - Automatically changes beautiful landscape wallpapers
+· Music Ambient Light - Displays colorful ambient lighting effects when music is playing
+· Multi-device Support - Compatible with phones, tablets, and TV devices
+
+🎨 Customization Options
+
+· Color Themes - 9 text colors and 7 background colors to switch between
+· Font Styles - 4 different font styles available
+· Gesture Controls - Tap to change colors, double-tap to change fonts, swipe to set location
+· TV Remote Support - Full directional key and OK button operations
+
+📺 TV-Specific Optimizations
+
+· Focus Navigation - Comprehensive focus indicators and navigation logic
+· Remote Control Operations - Up/down keys for colors, left/right keys for fonts, OK button actions
+· Landscape Adaptation - Perfect TV landscape display experience
+· Double-tap Back to Exit - Prevents accidental operations
+
+🛠 Technical Features
+
+Compatibility Assurance
+
+· Minimum Support: Android 4.1 (API 16)
+· Target Version: Android 16 (API 36)
+· Uses Support Library for backward compatibility
+· TV Leanback Support
+
+Performance Optimization
+
+· Efficient Memory Management - Smart wallpaper caching and recycling
+· Network Optimization - Mobile data usage reminders and traffic control
+· Battery Friendly - Reasonable update frequency and resource release
+
+📋 Feature Details
+
+Time Information Display
+
+· Real-time clock (HH:MM:SS)
+· Complete date (year/month/day + weekday)
+· Lunar calendar dates and traditional festivals
+· Solar term reminders
+
+Weather Service
+
+· Automatic location (province/city/district three-level selection)
+· Temperature and weather condition display
+· Weather icon visualization
+· Multiple data source backup for stability
+
+Wallpaper System
+
+· Automatically fetches beautiful wallpapers from the internet
+· Local cache of 10 wallpapers for rotation
+· Automatic changes every 5 minutes
+· Supports manual immediate replacement
+
+Music Ambient Light
+
+· Real-time music playback detection
+· Colorful gradient lighting on both sides
+· Breathing light effect synchronized with music rhythm
+· 40+ colors automatically rotated
+
+Battery Information
+
+· Real-time battery level display
+· Charging status indication
+· Adaptive color matching
+
+🔧 Installation & Usage
+
+System Requirements
+
+· Android 4.1 (API 16) or higher
+· Landscape display devices work best
+· Internet connection (for weather and wallpapers)
+
+First Launch Process
+
+1. Display operation instructions
+2. Developer information
+3. Location setup (for weather service)
+4. Enter main clock interface
+
+🤖 AI Technology Application
+
+This project was developed with the assistance of AI programming technology, including:
+
+Code Generation & Optimization
+
+· AI-assisted code generation and refactoring suggestions
+· Intelligent error detection and repair suggestions
+· Performance optimization solution generation
+
+Development Efficiency Improvement
+
+· AI-assisted functional logic design
+· Compatibility solution generation
+· Code structure optimization suggestions
+
+🔒 Permission Description
+
+· Network Permission - For obtaining weather data and wallpapers
+· Audio Permission - For detecting music playback status
+· Wake Lock - For keeping the screen always on
+
+---
+
+Making time display more beautiful!
